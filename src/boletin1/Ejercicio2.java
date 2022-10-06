@@ -20,6 +20,7 @@ public class Ejercicio2 {
 		} else {
 			System.out.print("SON DIFERENTES");
 		}
+		//cerramos el scanner
 		sc.close();
 	}
 

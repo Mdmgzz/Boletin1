@@ -17,6 +17,7 @@ public class Ejercicio1 {
 		} else {
 			System.out.print("El numero es impar");
 		}
+		//cerramos el scanner
 		sc.close();
 		}
 
