@@ -21,11 +21,14 @@ public class Ejercicio6 {
 		raiz=b*b-4*a*c;
 		if (raiz<0) {
 			System.out.print("No hay solucion");
+		}else if (a==0) {						// si la variable a es = 0 se convertiria en eq de 1º grado
+			x1=c/b;
 		}else {
 			x1=(-b+Math.sqrt(raiz)/2*a);
 			x2=(-b-Math.sqrt(raiz)/2*a);
 			System.out.print("El primer resultado es: "+ x1 + "El segundo resutado es: "+ x2);
 		}
+		// cerramos el scanner 
 	sc.close();
 	}
 	
